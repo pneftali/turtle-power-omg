@@ -1,0 +1,105 @@
+* { padding:0; margin:0; /*border:1px solid blue;*/ box-sizing: border-box;}
+
+
+#header { width: 100%; height: 100px; border: 1px solid #888; }
+
+#mainContainer { width:982px; margin:0 auto; min-height: 100%; }
+#mainContainer .topBar { width:982px; height: 53px; background: url('./faq-container.jpg') no-repeat; }
+#mainContainer .topHeader { height: 30px; padding: 3px; }
+#mainContainer .pageContainer { padding: 0 6px; overflow: auto; }
+#tabs { border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border: 0; background: #F4F4F4; position: relative; top: -30px; }
+
+#mainContainer .leftPane { width: 705px; float: left; }
+#mainContainer .lpInner { height: 361px; background: #F4F4F4; border: 1px solid #F4F4F4; }
+#mainContainer .rightPane { width: 239px; float: right; background: #F4F4F4; border: 1px solid #F4F4F4;}
+#mainContainer .rpInner { height: 520px; }
+
+
+#footer { border: 1px solid #888; height: 50px; }
+
+/** override UI **/
+#mainContainer .pageContainer .ui-tabs-panel { border: 5px solid #BEBEBE; background: #FFF; }
+#mainContainer .pageContainer .ui-widget-header { background: none; border: none; }
+#mainContainer .pageContainer .ui-tabs { padding: 0; }
+#mainContainer .pageContainer .ui-tabs-nav { padding:0; font-size: 10px; }
+
+#mainContainer .ui-tabs .ui-tabs-nav li a { padding: 10px; } 
+
+#mainContainer .ui-state-default, 
+#mainContainer .ui-widget-content .ui-state-default, 
+#mainContainer .ui-widget-header .ui-state-default { border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border: 0; background: #FFF; } 
+
+#mainContainer .ui-state-active, #mainContainer .ui-tabs-selected, 
+#mainContainer .ui-widget-content .ui-state-active, 
+#mainContainer .ui-widget-header .ui-state-active { 
+	border: 1px solid #BEBEBE; background: #BEBEBE; 
+	border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border: 0; }
+
+#mainContainer .ui-state-active a, 
+#mainContainer .ui-state-active a:link, 
+#mainContainer .ui-state-active a:visited { color: #FFF; }
+
+
+/*** scrollable ***/
+.scrollable { float:left; position:relative; overflow:hidden; width: 311px; height:77px; }
+.scrollable .items { width:20000em; position:absolute; clear:both; }
+.scrollable img { float:left; background-color:#fff; width:75px; height:75px; }
+.scrollable img:hover { cursor: pointer; }
+.scrollable .active { border:2px solid #000; position:relative; cursor:default; }    
+.items div.itemsContainer { float:left; width:680px; position: ; }
+.items div.itemsContainer div { float: left; position: relative; width: 75px; height: 75px;  margin-right: 3px; }
+.items div.itemsContainer div div.thumbSelected { position: absolute; background: rgba(0,0,0,.4); width: 75px; height: 75px; }
+
+a.browse { 
+	background:url(./images/scrollable/arrow/nav_sprite.png) no-repeat; display:block; width:9px;
+    height:74px; float:left; margin:1px 0 1px 3px; cursor:pointer; font-size:1px; }
+
+a.right { background-position: -17px 0; clear:right; margin-right: 0px;}
+a.right:hover {  }
+a.right:active {  }
+
+a.left { margin: 1px 4px 1px 0 }
+a.left:hover  {  }
+a.left:active {  }
+
+a.up, a.down  {
+    background:url(./images/scrollable/arrow/nav_sprite.png) no-repeat;
+    float: none; margin: 10px 50px; }
+
+a.up:hover { background-position:-30px 0; }
+a.up:active { background-position:-60px 0; }
+
+a.down { background-position: 0 -30px; }
+a.down:hover { background-position:-30px -30px; }
+a.down:active { background-position:-60px -30px; }
+
+a.disabled { visibility:hidden !important; }
+	
+	/*** big image ***/
+	#bigImageDiv img { width:334px; height:223px; }
+
+	/*** default display for sliders ***/
+	.container1 { display: block; }
+	.container2, .container3 { display: none; }
+
+
+/*** might add this in common.css ***/
+.clear { clear:both; }
+.radiusTopRightLeft { 
+	-webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; 
+	-moz-border-radius-topleft: 	5px; -moz-border-radius-topright: 5px;
+	border-top-left-radius: 		5px; border-top-right-radius: 5px; }
+
+.shadowInset {
+	-webkit-box-shadow: inset 0 1px 0 0 rgba(255,255,255,.6);
+	-moz-box-shadow: 	inset 0 1px 0 0 rgba(255,255,255,.6);
+	box-shadow: 		inset 0 1px 0 0 rgba(255,255,255,.6); }	
+
+.shadowOut {
+	-webkit-box-shadow: 0px 5px 10px rgba(180, 180, 180, 1);
+	-moz-box-shadow:    0px 5px 10px rgba(180, 180, 180, 1);
+	box-shadow:         0px 5px 10px rgba(180, 180, 180, 1);
+}	
+
+
+
