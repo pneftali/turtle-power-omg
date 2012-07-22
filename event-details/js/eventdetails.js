@@ -403,6 +403,11 @@ $(document).ready(function (){
 		}
 	});
 
+	// listener for timer
+	$( '.events-social a' ).on('click', function (){
+		$( '.events-timer' ).toggle();
+	})
+
 	
 })
 

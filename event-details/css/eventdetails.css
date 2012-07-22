@@ -12,7 +12,9 @@ body { background:url(../images/sitetopbg.png) repeat-x; }
 #mainContainer { width:982px; margin:0 auto; min-height: 100%; }
 #mainContainer .topBar { width:982px; height: 53px; background: url('../images/faq-container.jpg') no-repeat; }
 #mainContainer .topHeader { height: 30px; padding: 3px; }
-#mainContainer .pageContainer { padding: 0 5px; }
+#mainContainer .pageContainer { padding: 0 6px 0 1px; }
+
+
 #mainContainer .event-details { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; } 
 #mainContainer .event-details p { color: #5E5E5E; word-spacing: 1px; line-height: 18px; font-size: 13px; }
 
@@ -25,8 +27,7 @@ body { background:url(../images/sitetopbg.png) repeat-x; }
 #mainContainer .leftBottomRadius { background: url('../images/event-details/layer/border-bg-sprite.png') no-repeat 0 -28px; height: 12px; }
 #mainContainer .leftInner { position: relative; background-image: url('../images/event-details/layer/left-layer.png'); background-repeat: repeat-y; padding: 0 16px; }
 #mainContainer .leftPaneContent { float: left; margin-right: 15px; }
-.noIE #mainContainer .rightPaneContent { float: left; width: 325px; font-family: Myriad Pro, Arial; }
-.ie7 #mainContainer .rightPaneContent { float: left; /*width: 325px;*/ padding-right: 10px; font-family: Myriad Pro, Arial; }
+#mainContainer .rightPaneContent { float: left; width: 325px; font-family: Myriad Pro, Arial; }
 #mainContainer .rightTopRadius { background: url('../images/event-details/layer/border-bg-sprite.png') no-repeat 0 -41px; height: 13px; }
 #mainContainer .rightBottomRadius { background: url('../images/event-details/layer/border-bg-sprite.png') no-repeat 0 -92px; height: 5px; }
 
@@ -42,8 +43,8 @@ body { background:url(../images/sitetopbg.png) repeat-x; }
 .rightPaneContent .synopsisContentFull { display: none; }
 .rightPaneContent .synopsisContentFull p { margin-bottom: 10px; }
 
-#mainContainer .rightPane { width: 247px; float: right; height: 100%; }
-#mainContainer .rpInner { /*height: 520px;*/ padding: 0 16px; background-image: url('../images/event-details/layer/right-layer.png'); background-repeat: repeat-y; }
+#mainContainer .rightPane { width: 247px; float: right; height: 100%; position: relative; }
+#mainContainer .rpInner { /*height: 520px;*/ padding: 0 19px; background-image: url('../images/event-details/layer/right-layer.png'); background-repeat: repeat-y; }
 #mainContainer .rpOuter { background: #F4F4F4; }
 
 .rpInner .buy-now { background: url('../images/event-details/buttons/event-details-sprite1.png') no-repeat 0 0; width: 215px; height: 45px; border: 0; margin-bottom: 5px;}
@@ -63,7 +64,14 @@ body { background:url(../images/sitetopbg.png) repeat-x; }
 #eventsDetailsAccord p span { display: block; line-height: 15px; font-size: 12px; }
 #eventsDetailsAccord .ticketPricing { margin-bottom: 10px; }
 #eventsDetailsAccord .ticketPricing span { line-height: 16px; }
-#footer {  }
+
+.events-social { position: fixed; top: 130px; margin-left: 235px; }
+.events-social a:hover { cursor: pointer; }
+.events-timer { display: none; background: url('../images/event-details/social/timer-black.png') no-repeat -1px 0; width: 190px; height: 97px; position: absolute; left: -190px; top: 1px; z-index: 3; }
+#events-fb { display: block; background: url('../images/event-details/social/socials-sprite-black.png') no-repeat -1px 0; width: 37px; height: 35px; }
+#events-tw { display: block; background: url('../images/event-details/social/socials-sprite-black.png') no-repeat -48px 0; width: 37px; height: 32px; }
+#events-ml { display: block; background: url('../images/event-details/social/socials-sprite-black.png') no-repeat -96px 0; width: 37px; height: 45px; }
+
 
 
 
@@ -277,7 +285,6 @@ body { background:url(../images/sitetopbg.png) repeat-x; }
 
 .divider { border-top: 1px solid #C8C9Ca; border-bottom: 1px solid #FFF; }
 .dividerWithSpace { border-top: 1px solid #C8C9Ca; border-bottom: 1px solid #FFF; margin: 10px 0 5px 0; }
-
 /***********************************************************************/
 
 
