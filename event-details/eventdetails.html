@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+
+<!--[if IE 7]> <html class="ie7"> <![endif]-->
+<!--[if IE 8]> <html class="ie8"> <![endif]-->
+<!--[if !IE]><!--> <html class="noIE"> <!--<![endif]-->
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="./css/jquery-ui.css" media="screen" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="./css/lightmeup.css" media="screen" />
+		<link href="./css/header.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="./css/footer.css" media="screen" rel="stylesheet" type="text/css" />
+		<link type="text/css" href="./css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+		<link type="text/css" href="./css/jquery.jscrollpane.lozenge.css" rel="stylesheet" media="all" />
+		<link href="./css/eventdetails.css" media="screen" rel="stylesheet" type="text/css" />		
+	</head>	
+
+	<body>
+		<img src='./images/event-details/events-big-bg.jpg' />
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=474135472598516";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+
+		<!-- header -->
+		<div id="header">
+			<a class="logo" href=""><img src="./images/logo.jpg" height="69" width="157"></a>
+		    <div class="h-banner"><img src="./images/bannerad.jpg" height="84" width="711"></div>
+		    <div class="clear"></div>
+		    <div class="nav">
+		       	<ul>
+		           	<li><a class="menu-item" href=""><img src="./images/home.jpg"></a></li>
+		           	<li><div class="event-x">Find an event
+		                       <div class="detail-event">
+
+		                           <div class="section-x col-1">
+		                           	<div class="box-x">
+		                                   <h3>WHAT ON TODAY</h3>
+		                                   <ol>
+		                                       <li><a href="">1. The Paranakan Museum Admission</a></li>
+		                                       <li><a href="">2. Skypark Singapore</a></li>
+		                                       <li><a href="">3. WICKED</a></li>
+		                                   </ol>
+		                                   <a class="viewmore" href="">View more</a>
+		                               </div>
+		                               <div class="box-x">
+		                                   <h3>DATE</h3>
+		                               </div>
+		                               <div class="demo">
+		                              		<div id="datepicker"></div>
+		                       		   </div><!-- End demo -->
+		                       </div>
+		                       
+		                       <div class="col-2">
+		                           <div class="section-x gl1">
+		                               <div class="box-x">
+		                                   <h3>GENRE</h3>
+		                                   <ul>
+		                                       <li><a href="">Attraction/Listyle/Leisure </a></li>
+		                                       <li><a href="">Concert</a></li>
+		                                       <li><a href="">Dance</a></li>
+		                                       <li><a href="">Family Entertainment</a></li>
+		                                       <li><a href="">Film/Movies</a></li>
+		                                       <li><a href="">MICE</a></li>
+		                                       <li><a href="">Musical</a></li>
+		                                       <li><a href="">Orchestra</a></li>
+		                                       <li><a href="">Seminar/Workshop</a></li>
+		                                       <li><a href="">Sports</a></li>
+		                                       <li><a href="">Theatre</a></li>
+		                                   </ul>
+		                               </div>
+		                           </div>
+		                           
+		                           <div class="section-x gl2">
+		                               <div class="box-x">
+		                                   <h3>VENUE</h3>
+		                                   <ul>
+		                                       <li><a href="">Attraction/Listyle/Leisure </a></li>
+		                                       <li><a href="">Concert</a></li>
+		                                       <li><a href="">Dance</a></li>
+		                                       <li><a href="">Family Entertainment</a></li>
+		                                       <li><a href="">Film/Movies</a></li>
+		                                       <li><a href="">MICE</a></li>
+		                                       <li><a href="">Musical</a></li>
+		                                       <li><a href="">Orchestra</a></li>
+		                                       <li><a href="">Seminar/Workshop</a></li>
+		                                       <li><a href="">Sports</a></li>
+		                                       <li><a href="">Theatre</a></li>
+		                                   </ul>
+		                                   <a class="viewmore" href="">View more</a>
+		                               </div>
+		                           </div>
+		                           <div class="clear"></div>
+		                       	<div class="ad-123">&nbsp;</div>    
+		                       </div>
+		                       
+		                       <div class="section-x col-3">
+		                       	<div class="box-x">
+		                               <h3>Latest Release</h3>
+		                               <ol>
+		                                   <li><a href="">1. Lorem ipsum dolor sit amet dolor sit amet</a> <em>18 Oct 2012</em></li>
+		                                   <li><a href="">2. consectetur adipiscing elit adipiscing elit </a><em>20-23 Nov 2012</em></li>
+		                               </ol>
+		                               <a class="viewmore" href="">View more</a>
+		                           </div>
+		                           
+		                           <div class="box-x">
+		                               <h3>List by A - Z</h3>
+		                           </div>
+		                           
+		                           <div class="box-x">
+		                               <h3>Overseas Events</h3>
+		                               <ul>
+		                                   <li><a href="">MALAYSIA</a></li>
+		                                   <li><a href="">HONGKONG</a></li>
+		                                   <li><a href="">MACAU</a></li>
+		                               </ul>
+		                               <br>
+		                           </div>
+		                           
+		                           <div class="box-x">
+		                               <h3>See all Events</h3>
+		                           </div>
+		                           
+		                           <div class="search-x">
+		                           	<div class="txt-sx">Search</div>
+		                               <input class="txtfld-x" name="" type="text">
+		                               <input class="btn-sx" name="" type="button">
+		                               <div class="clear"></div>
+		                           </div>
+		                       </div>
+		                       
+		                       
+		                       <div class="clear"></div>
+		                   </div>
+		               </div>
+		           </li>    
+		           <li><a class="menu-item" href="">Online shop</a></li>   
+		           <li><a class="menu-item" href="">attractions</a></li>     
+		           <li class="current"><a class="menu-item" href="">promotions</a></li>
+		    	</ul>
+		    </div>
+		    <div class="search-area">
+		    	<input class="h-txtfld" name="" placeholder="Keyword search" value="" type="text">
+		        <input class="btn-search" name="" type="button">	
+		    </div>
+		    <div class="clear"></div>
+		</div> <!-- end header -->
+
+		<div id="sitebody">
+
+			<div id='mainContainer'>
+
+				<div class='topBar'>
+					<span class="shadowleft"></span>
+					<span class="shadowright"></span>
+				</div>			
+
+				<div class='topHeader'>Halo ha milky way!</div>
+
+				<!-- page container for event details -->
+				<div class='pageContainer event-details'>
+					
+					
+					<!-- LEFT COLUMN -->
+					<div class='leftPane'>
+						<div class='leftTopRadius'></div>
+						<div class='leftInner'>
+							<!-- LEFT - CAROUSEL -->
+							<div class='leftPaneContent'>
+								<div id='bigImageDiv'>
+									<img src='./images/scrollable/bigpic/big-pic.jpg' />
+								</div>
+								<div id="events-slider">
+									<!-- "previous page" action -->
+									<a class="prev browse left" data-direction='prev'></a>
+									 
+									<!-- root element for scrollable -->
+									<div class="scrollable" id="scrollable">
+									 
+										<!-- root element for the items -->
+										<div class="items">
+										 
+										    <!-- 1-4 -->
+										    <div class='itemsContainer container1'>
+											    <div data-order='1' class='first-child'>
+											    	<a href='./images/scrollable/bigpic/big-pic.jpg' class='group1' data-fancybox-group="gallery">
+											    		<img src="./images/scrollable/thumbnail/thumb1.jpg" data-file='big-pic.jpg' />
+											    	</a>
+											    </div>
+											    <div data-order='2'>
+											    	<a href='./images/scrollable/bigpic/mirr_kerr.jpeg' class='group1' data-fancybox-group="gallery">
+											    		<img src="./images/scrollable/thumbnail/thumb2.jpg" data-file='mirr_kerr.jpeg' />
+											    	</a>
+											    </div>
+											    <div data-order='3'>
+											    	<a href='./images/scrollable/bigpic/mirranda_kerr.jpeg' class='group1' data-fancybox-group="gallery">
+											    		<img src="./images/scrollable/thumbnail/thumb3.jpg" data-file='mirranda_kerr.jpeg' />
+											    	</a>
+											    </div>
+											    <div data-order='4'>
+											    	<a href='./images/scrollable/bigpic/mir_ker.jpeg' class='group1' data-fancybox-group="gallery">
+											    		<img src="./images/scrollable/thumbnail/thumb4.jpg" data-file='mir_ker.jpeg' />
+											    	</a>
+											    </div>
+										    </div>
+										 	
+										    <!-- 5-8 -->									    
+										    <div class='itemsContainer container2'>
+										    	<div data-order='1' class='first-child'>
+										    		<a href='./images/scrollable/bigpic/mir_ker.jpeg' class='group1' data-fancybox-group="gallery">
+										    			<img src="./images/scrollable/thumbnail/thumb4.jpg" data-file='mir_ker.jpeg' />
+										    		</a>
+										    	</div>
+											    <div data-order='2'>
+											    	<a href='./images/scrollable/bigpic/mirranda_kerr.jpeg' class='group1' data-fancybox-group="gallery">
+											    		<img src="./images/scrollable/thumbnail/thumb3.jpg" data-file='mirranda_kerr.jpeg' />
+											    	</a>
+											    </div>
+											    <div data-order='3'>
+											    	<a href='./images/scrollable/bigpic/mirr_kerr.jpeg' class='group1' data-fancybox-group="gallery">
+											    		<img src="./images/scrollable/thumbnail/thumb2.jpg" data-file='mirr_kerr.jpeg' />
+											    	</a>
+											    </div>
+											    <div data-order='4'>
+											    	<a href='./images/scrollable/bigpic/big-pic.jpg' class='group1' data-fancybox-group="gallery">
+											    		<img src="./images/scrollable/thumbnail/thumb1.jpg" data-file='big-pic.jpg' />
+											    	</a>
+											    </div>
+										    </div>
+										 	
+										    <!-- 9-12 -->									    
+										    <div class='itemsContainer container3'>
+										    	<div data-order='1' class='first-child'>
+											    	<a href='./images/scrollable/bigpic/big-pic.jpg' class='group1' data-fancybox-group="gallery">
+											    		<img src="./images/scrollable/thumbnail/thumb1.jpg" data-file='big-pic.jpg' />
+											    	</a>
+											    </div>
+											    <div data-order='2'>
+											    	<a href='./images/scrollable/bigpic/mirr_kerr.jpeg' class='group1' data-fancybox-group="gallery">
+											    		<img src="./images/scrollable/thumbnail/thumb2.jpg" data-file='mirr_kerr.jpeg' />
+											    	</a>
+											    </div>
+											    <div data-order='3'>
+											    	<a href='./images/scrollable/bigpic/mirranda_kerr.jpeg' class='group1' data-fancybox-group="gallery">
+											    		<img src="./images/scrollable/thumbnail/thumb3.jpg" data-file='mirranda_kerr.jpeg' />
+											    	</a>
+											    </div>
+											    <div data-order='4'>
+											    	<a href='./images/scrollable/bigpic/mir_ker.jpeg' class='group1' data-fancybox-group="gallery">
+											    		<img src="./images/scrollable/thumbnail/thumb4.jpg" data-file='mir_ker.jpeg' />
+											    	</a>
+											    </div>
+										    </div>
+										 	
+										</div>
+									 
+									</div>
+									 
+									<!-- "next page" action -->
+									<a class="next browse right" data-direction='next'></a>
+								</div>
+							</div>
+							<!-- RIGHT - CONTENT BESIDE CAROUSEL -->
+							<div class='rightPaneContent'>
+								<h3>Latest News</h3>
+								<p>N.A.</p>
+
+								<h3 style='margin-top:10px;'>Important Notice</h3>
+								<p class='impNoticeCut'>With effect from 30 Sept 2010, roads of Stadium Drive,</p>
+								<p class='impNoticeFull'>
+									With effect from 30 Sept 2010, roads of Stadium Drive,
+									With effect from 30 Sept 2010, roads of Stadium Drive,
+									With effect from 30 Sept 2010, roads of Stadium Drive,
+								</p>
+								<a class='aToggle aMore impNotice' data-content='important-notice' data-action='more'>more <b>&nbsp;</b></a>
+								<div class='divider'></div>
+								<h3 class='synopsis'>Synopsis</h3>
+								<div class='viewInBox'>
+									<span class='viewIn'>view in:&nbsp;</span>
+									<a class='langSelected'>English</a>
+									<span>|</span>
+									<a>Chinese</a>
+									<span>|</span>
+									<a>Malay</a>
+									<span>|</span>
+									<a>Tamil</a>
+								</div>
+								<div>
+									<p class='synopsisTitle'>So Much Happned before Dorothy Dropped in.</p>
+									<div class='synopsisContentCut'>
+										<p>
+											WICKED tells the untold story of the Witches of Oz.
+											Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+											One, born with emerald green skin, is smart, fiery and misunderstood.
+											The other is beautiful, ambitious and very popular. WICKED tells the
+											story of how these two unlikely friends grow to become
+										</p>
+									</div>
+									<div class='synopsisContentFull'>
+										<p >
+											WICKED tells the untold story of the Witches of Oz.
+											Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+											One, born with emerald green skin, is smart, fiery and misunderstood.
+											The other is beautiful, ambitious and very popular. WICKED tells the
+											story of how these two unlikely friends grow to become
+										</p>
+										<p>	
+											WICKED tells the untold story of the Witches of Oz.
+											Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+											One, born with emerald green skin, is smart, fiery and misunderstood.
+											The other is beautiful, ambitious and very popular. WICKED tells the
+											story of how these two unlikely friends grow to become
+										</p>
+									</div>
+								</div>
+								<a class='aToggle aMore' data-content='synopsis' data-action='more'>more <b>&nbsp;</b></a>
+							</div>
+							<div class='clear'></div>
+							<!-- TABS SECTION -->
+							<div id="tabs">
+								<ul>
+									<li><a href="#tabs-1">EVENT DETAILS</a></li>
+									<li><a href="#tabs-2">OTHER DETAILS</a></li>
+									<li><a href="#tabs-3" style='color: #71A3EA'>DISCOUNTS & CONCESSIONS</a></li>
+									<li><a href="#tabs-4">BIO</a></li>
+									<li><a href="#tabs-5">REVIEWS</a></li>
+									<li><a href="#tabs-6">FAQ</a></li>
+								</ul>
+								<div id="tabs-1" class='tabs-children' data-count='1'>
+									<div class="scroll-pane">
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>	
+									</div>							
+								</div>
+								<div id="tabs-2" class='tabs-children' data-count='2'>
+									<div class="scroll-pane">
+										<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>
+									<p>	
+										WICKED tells the untold story of the Witches of Oz.
+										Long before Dorothy dropped in, two other girls meet in the Land of Oz.
+										One, born with emerald green skin, is smart, fiery and misunderstood.
+										The other is beautiful, ambitious and very popular. WICKED tells the
+										story of how these two unlikely friends grow to become
+									</p>	
+									</div>
+								</div>
+								<div id="tabs-3" class='tabs-children' data-count='3'>
+									<div class="scroll-pane">
+										<p>Morbi</p>
+									</div>
+								</div>
+								<div id="tabs-4" class='tabs-children' data-count='4'>
+									<div class="scroll-pane">
+										<p>Morbi</p>
+									</div>
+								</div>
+								<div id="tabs-5" class='tabs-children' data-count='5'>
+									<div class="scroll-pane">
+										<p>Morbi</p>
+									</div>
+								</div>
+								<div id="tabs-6" class='tabs-children' data-count='6'>
+									<div class="scroll-pane">
+										<p>Morbi</p>
+									</div>
+								</div>
+							</div>
+							<div class='clear'></div>
+						</div>
+						<div class='leftBottomRadius'></div>
+						<div class='clear'></div>
+						
+						
+
+						<!-- LOWER LEFT-PANE -->
+						<div class='leftLowerPane'>
+									
+							<div class='items-related-label'></div>
+							<div id="event-items">
+								<!-- "previous page" action -->
+								<a class="prev browse left" data-direction='prev'></a>
+								 
+								<!-- root element for scrollable -->
+								<div class="scrollable" id="scrollable">
+								 
+									<!-- root element for the items -->
+									<div class="items">
+									 
+									    <!-- 1-5 -->
+									    <div class='itemsContainer container1'>
+										    <div data-order='1'><img src="./images/scrollable/thumbnail/big1.png" data-file='big-pic.jpg' /></div>
+										    <div data-order='2'><img src="./images/scrollable/thumbnail/big2.png" data-file='mirr_kerr.jpeg' /></div>
+										    <div data-order='3'><img src="./images/scrollable/thumbnail/big3.png" data-file='mirranda_kerr.jpeg' /></div>
+										    <div data-order='4'><img src="./images/scrollable/thumbnail/big4.png" data-file='mir_ker.jpeg' /></div>
+									    </div>
+									 	
+									    <!-- 5-10 -->									    
+									    <div class='itemsContainer container2'>
+									    	<div data-order='1'><img src="./images/scrollable/thumbnail/big1.png" data-file='big-pic.jpg' /></div>
+										    <div data-order='2'><img src="./images/scrollable/thumbnail/big2.png" data-file='mirr_kerr.jpeg' /></div>
+										    <div data-order='3'><img src="./images/scrollable/thumbnail/big3.png" data-file='mirranda_kerr.jpeg' /></div>
+										    <div data-order='4'><img src="./images/scrollable/thumbnail/big4.png" data-file='mir_ker.jpeg' /></div>
+									    </div>
+									 	
+									    <!-- 10-15 -->									    
+									    <div class='itemsContainer container3'>
+									    	<div data-order='1'><img src="./images/scrollable/thumbnail/big1.png" data-file='big-pic.jpg' /></div>
+										    <div data-order='2'><img src="./images/scrollable/thumbnail/big2.png" data-file='mirr_kerr.jpeg' /></div>
+										    <div data-order='3'><img src="./images/scrollable/thumbnail/big3.png" data-file='mirranda_kerr.jpeg' /></div>
+										    <div data-order='4'><img src="./images/scrollable/thumbnail/big4.png" data-file='mir_ker.jpeg' /></div>
+									    </div>
+									 	
+									</div>
+								 
+								</div>
+								 
+								<!-- "next page" action -->
+								<a class="next browse right" data-direction='next'></a>
+								<div class='clear'></div>
+							</div>
+						</div>
+					</div>
+					<!-- RIGHT MAIN COLUMN -->
+					<div class='rightPane'>
+						<div class='rightTopRadius'></div>
+						<div class='rpInner'>
+							<button class='buy-now'></button>
+							
+							<div id='eventsDetailsAccord'>
+								<h3><a href='#' id='corporate-booking'></a></h3>
+								<div>									
+									<p>
+										Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+									</p>
+								</div>
+
+								
+								
+								<h3><a href='#' id='buy-package'></a></h3>
+								<div>
+									<h3 style='margin-top: 10px;'>Event Date</h3>
+									<p>
+										<span>17 Feb - 22 Apr 2012</span>
+										<span>Tue - Fri: 07.30pm</span>
+										<span>Sat & Sun: 01.30pm & 07.30pm</span>
+									</p>
+									<div class='dividerWithSpace'></div>
+									<h3>Venue</h3>
+									<p>
+										<span>Grand Theater at Marina Bay Sands</span>
+									</p>
+									<div class='dividerWithSpace'></div>
+									<h3>Ticket Pricing</h3>
+									<p class='ticketPricing'>
+										<span class='italic'>(Exclude Booking Fee) <a rel='tooltip' title='Please add to above price S$3 Booking Fee per ticket for tickets above S$20 and S$1 Booking Fee per ticket for tickets S$20 and below. Charges include GST where applicable.' id='tt-image'><img src='./images/event-details/buttons/i-circle.png' style='vertical-align: bottom; width: 20px; height: 20px;'/></a></span>
+										<span style='font-weight: 600; font-size: 12px; color: #919191'>Standard (Previews - 20 Jul 2012, 8pm & 21 Jul 2012, 3pm)</span>
+										<span>S$95, S$85, S$75, S$55, S$40</span>
+										<span style='margin-top:20px; font-weight: 600; font-size: 12px; color: #919191'>Standard (Tue, Wed & Thu - 8pm; Sat & Sun -3pm)</span>
+										<span>S$110, S$95, S$85, S$65, S$50,</span>	
+										<span style='margin-top:20px; font-weight: 600; font-size: 12px; color: #919191'>Standard (Fri & Sat - 8pm)</span>
+										<span>S$125, S$110, S$95, S$75, S$60</span>	
+									</p>
+								</div>
+
+
+
+								<h3><a href='#' id='sitting-plan'></a></h3>
+								<div>
+									<p>
+										Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+									</p>
+								</div>
+
+
+								
+							</div>
+							<div class='clear'></div>
+							<div class='find-on-fb'></div>
+							<div class="fb-like-box" data-href="http://www.facebook.com/Wickedthemusical" data-width="240" data-height="495" data-show-faces="true" data-stream="true" data-header="false"></div>	
+						</div>	
+								
+						<div class='rightBottomRadius'></div>
+					</div>
+
+					<div class='clear'></div>
+				</div><!-- end event details page -->
+
+				
+				<!-- footer -->
+				<div id='footer'>
+					<div class="ft-menu1 smap">
+		            	<h3>About Sistic</h3>
+		                <ul class="ful1">
+		                    <li><a href="">About Us</a></li>
+		                    <li><a href="">Contact Us</a></li>
+		                    <li><a href="">Careers</a></li>
+		                    <li><a href="">Awards</a></li>
+		                </ul>
+		                <ul class="ful2">
+		                    <li><a href="">FAQ</a></li>
+		                    <li><a href="">Conditions of Access</a></li>
+		                    <li><a href="">Privacy Policy</a></li>
+		                    <li><a href="">Sitemap</a></li>
+		                </ul>
+		                <div class="clear"></div>            
+		            </div>
+		            <div class="ft-menu2 smap">
+		            	<h3>Sistic Ticketing Solution</h3>
+		                <ul>
+		                    <li><a href="">STiX</a></li>
+		                    <li><a href="">CRM</a></li>
+		                    <li><a href="">Ticketing Technology</a></li>
+		                    <li><a href="">Transaction</a></li>
+		                </ul>           
+		            </div>
+		            <div class="ft-menu3 smap">
+		            	<h3>Partners/Promoters</h3>
+		                <ul>
+		                    <li><a href="">Advertise With Us</a></li>
+		                    <li><a href="">Sell Tickets Through SISTIC</a></li>
+		                    <li><a href="">Our Partners</a></li>
+		                    <li><a href="">Corporate Booking</a></li>
+		                </ul>           
+		            </div>
+		            <div class="ft-menu4 smap">
+		            	<h3>Your Account</h3>
+		                <ul>
+		                    <li><a href="">Log In / Register</a></li>
+		                    <li><a href="">Forgot Your Password?</a></li>
+		                    <li><a href="">Track  Your Order</a></li>
+		                    <li><a href="">Free Newsletter</a></li>
+		                </ul>           
+		            </div>
+		            <div class="ft-menu5 smap">
+		            	<h3>Locate Us</h3>
+		                <ul>
+		                    <li><a href="">Venues</a></li>
+		                    <li><a href="">Ticket Agents</a></li>
+		                    <li><a href="">Share</a></li>
+		                    
+		                </ul>           
+		            </div>
+		            <div class="clear"></div>
+		            <div class="f-bottom">
+						<table style="width: 950px;">
+							<tr>
+							<td>
+			            	<img src="./images/security.png" width="266" height="70" />
+							</td>
+							<td>
+				                SISTIC is the largest ticketing service and solution provider in Singapore. 
+				                It sells tickets to events ranging from pop concerts, musicals, theatre, family entertainment to sports. 
+				                SISTIC's Authorised Agents are now conveniently located in Singapore, Malaysia and Indonesia.
+							</td>
+							</tr>
+						</table>
+		            </div>
+		        </div><!-- end footer -->
+
+		    </div><!-- end main container --> 
+
+		</div><!-- end site body -->
+	</body>	
+</html>
+
+<script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.8.21.custom.min.js"></script>
+<script type="text/javascript" src="./js/lightmeup.js"></script>
+<script type="text/javascript" src="./js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="./js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="./js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="./js/eventdetails.js"></script>
+

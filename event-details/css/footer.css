@@ -1,0 +1,13 @@
+#footer { background:url(../images/horizontal-bar-footer.JPG) repeat-x; margin-top:15px; width: 944px; padding: 30px 19px 0px; font-family:Tahoma; font-size:12px;}
+#footer h3{font-size: 13px; text-transform: uppercase;  font-family:  "Century Gothic", Helvetica, sans-serif; margin: 0px 0px 3px; color:#666666; }
+#footer .smap{ float:left; margin-right: 20px; width: 170px}
+#footer .ft-menu1{ width: 230px;}
+#footer .ft-menu1 .ful1{ width: 97px; float:left;}
+#footer .ft-menu1 .ful2{ width: 133px; float:left;}
+#footer ul{ list-style: none;}
+#footer ul li{ border-bottom: 1px #999 solid;}
+#footer ul li a{ text-decoration: none; color: #999; padding: 1px 0px; display:block;}
+#footer .ft-menu4{ width: 160px; }
+#footer .ft-menu5{ width: 100px; margin: 0px;}
+#footer .f-bottom{ margin-top:40px; color:#666; font-size: 11px;}
+#footer .f-bottom img{ float: left; vertical-align:middle; margin: -10px 0px 0px;}

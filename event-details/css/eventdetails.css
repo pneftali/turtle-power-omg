@@ -1,0 +1,313 @@
+* { padding:0; margin:0; /*box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;*/}
+img, a img { border: none; }
+body { background:url(../images/sitetopbg.png) repeat-x; }
+#sitebody { background:url(../images/sitebg.png) repeat-y; width:1002px; min-height:100%; margin:0 auto; padding:0px 0px; }
+#mainContainer .topBar { position:relative; }
+#mainContainer .topBar span.shadowleft { position:absolute; top:0px; left:-13px; display:block; background:url(../images/sitetopleftshadow.png) no-repeat; width:13px; height:9px; }
+#mainContainer .topBar span.shadowright { position:absolute; top:0px; right:-15px; display:block; background:url(../images/sitetoprightshadow.png) no-repeat; width:15px; height:15px; }
+
+
+#header { width: 100%; height: 100px; border: 1px solid #888; }
+
+#mainContainer { width:982px; margin:0 auto; min-height: 100%; }
+#mainContainer .topBar { width:982px; height: 53px; background: url('../images/faq-container.jpg') no-repeat; }
+#mainContainer .topHeader { height: 30px; padding: 3px; }
+#mainContainer .pageContainer { padding: 0 5px; }
+#mainContainer .event-details { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; } 
+#mainContainer .event-details p { color: #5E5E5E; word-spacing: 1px; line-height: 18px; font-size: 13px; }
+
+.leftPane .leftLowerPane { position: relative; width: 709px; margin: 0 auto;}
+.items-related-label { height: 25px; background: url('../images/event-details/buttons/event-details-sprite1.png') no-repeat -231px -168px; }
+
+
+#mainContainer .leftPane { width: 722px; float: left; }
+#mainContainer .leftTopRadius { background: url('../images/event-details/layer/border-bg-sprite.png') no-repeat 0 0; height: 17px; }
+#mainContainer .leftBottomRadius { background: url('../images/event-details/layer/border-bg-sprite.png') no-repeat 0 -28px; height: 12px; }
+#mainContainer .leftInner { position: relative; background-image: url('../images/event-details/layer/left-layer.png'); background-repeat: repeat-y; padding: 0 16px; }
+#mainContainer .leftPaneContent { float: left; margin-right: 15px; }
+.noIE #mainContainer .rightPaneContent { float: left; width: 325px; font-family: Myriad Pro, Arial; }
+.ie7 #mainContainer .rightPaneContent { float: left; /*width: 325px;*/ padding-right: 10px; font-family: Myriad Pro, Arial; }
+#mainContainer .rightTopRadius { background: url('../images/event-details/layer/border-bg-sprite.png') no-repeat 0 -41px; height: 13px; }
+#mainContainer .rightBottomRadius { background: url('../images/event-details/layer/border-bg-sprite.png') no-repeat 0 -92px; height: 5px; }
+
+.rightPaneContent h3 { font-weight: 600; font-size: 15px; }
+.rightPaneContent .impNotice { margin-bottom: 8px; }
+.rightPaneContent .synopsis { margin-top: 8px; }
+.rightPaneContent .viewInBox { color: #ACACAC; }
+.rightPaneContent .viewIn { font-size: 11px; }
+.rightPaneContent .viewInBox a { color: #4A9CE4; font-size: 12px; }
+.rightPaneContent .langSelected { color: #4A9CE4; font-weight: bold; }
+.rightPaneContent .synopsisTitle { font-weight: 600; color: #A9A9A9; margin-bottom: 20px; }
+.rightPaneContent .impNoticeFull { display: none; }
+.rightPaneContent .synopsisContentFull { display: none; }
+.rightPaneContent .synopsisContentFull p { margin-bottom: 10px; }
+
+#mainContainer .rightPane { width: 247px; float: right; height: 100%; }
+#mainContainer .rpInner { /*height: 520px;*/ padding: 0 16px; background-image: url('../images/event-details/layer/right-layer.png'); background-repeat: repeat-y; }
+#mainContainer .rpOuter { background: #F4F4F4; }
+
+.rpInner .buy-now { background: url('../images/event-details/buttons/event-details-sprite1.png') no-repeat 0 0; width: 215px; height: 45px; border: 0; margin-bottom: 5px;}
+.rpInner #corporate-booking { padding: 0; background: url('../images/event-details/buttons/event-details-sprite1.png') no-repeat 0 -56px; width: 215px; height: 25px; border: 0; display: block; margin-bottom: 2px; }
+.rpInner #buy-package { padding: 0; margin-bottom:2px; background: url('../images/event-details/buttons/event-details-sprite1.png') no-repeat 0 -93px; width: 215px; height: 25px; border: 0; display: block; }
+.rpInner #sitting-plan { padding: 0;  margin-bottom:2px; background: url('../images/event-details/buttons/event-details-sprite1.png') no-repeat 0 -131px; width: 215px; height: 25px; border: 0; display: block; }
+
+.rpInner .buy-now:hover { cursor: pointer; background-position: -230px 0; }
+.rpInner #corporate-booking:hover { background-position: -231px -56px; }
+.rpInner #buy-package:hover { background-position: -231px -93px;  }
+.rpInner #sitting-plan:hover { background-position: -231px -131px; }
+
+.fb_iframe_widget { left: -10px; }
+.rightPane .find-on-fb { margin-top: 20px; position: relative; left: -10px; z-index: 2; background: url('../images/event-details/buttons/event-details-sprite1.png') no-repeat 0 -168px; width: 171px; height:24px; }
+
+#eventsDetailsAccord div {  }
+#eventsDetailsAccord p span { display: block; line-height: 15px; font-size: 12px; }
+#eventsDetailsAccord .ticketPricing { margin-bottom: 10px; }
+#eventsDetailsAccord .ticketPricing span { line-height: 16px; }
+#footer {  }
+
+
+
+
+
+
+
+/************************* override jQuery UI tabs styles /*************************/
+#mainContainer .pageContainer .ui-tabs-panel { border: 5px solid #BEBEBE; background: #FFF; height: 320px; }
+#mainContainer .pageContainer .ui-widget-header { background: none; border: none; }
+#mainContainer .pageContainer .ui-tabs { padding: 0; background: transparent; /*width: 709px;*/ position: relative; left: -9px; }
+#mainContainer .pageContainer .ui-tabs-nav { padding:0; font-size: 10px; }
+
+#mainContainer .ui-tabs .ui-tabs-nav li a { padding: 10px; } 
+
+#mainContainer .ui-state-default, 
+#mainContainer .ui-widget-content .ui-state-default, 
+#mainContainer .ui-widget-header .ui-state-default { border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border: 0; background: #F1F1F1; } 
+
+#mainContainer .ui-state-active, #mainContainer .ui-tabs-selected, 
+#mainContainer .ui-widget-content .ui-state-active, 
+#mainContainer .ui-widget-header .ui-state-active { 
+	border: 1px solid #BEBEBE; background: #BEBEBE; 
+	border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border: 0; }
+
+#mainContainer .ui-state-active a, 
+#mainContainer .ui-state-active a:link, 
+#mainContainer .ui-state-active a:visited { color: #FFF; }
+/***********************************************************************/
+
+
+/************************* override jQuery UI accordion styles /*************************/
+#eventsDetailsAccord .ui-widget-content { border: 0; background: none; color: inherit; padding: 0; }
+#eventsDetailsAccord h3 { font-family: Myriad Pro, Arial; font-weight: 600; font-size: 15px; }
+
+#mainContainer #eventsDetailsAccord .ui-state-active, #mainContainer #eventsDetailsAccord .ui-tabs-selected, 
+#mainContainer #eventsDetailsAccord .ui-widget-content .ui-state-active, 
+#mainContainer #eventsDetailsAccord .ui-widget-header .ui-state-active { 
+	border: 0; background: 0; 
+	border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border: 0; }
+#mainContainer #eventsDetailsAccord .ui-widget { font-family: Lucida Sans, Tahoma; }
+/***********************************************************************/
+
+
+
+
+
+
+/************************* jscrollpane scrollers /*************************/
+#tabs { border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border: 0; background: #F1F1F1; width: 650px; }
+.tabs-children { width: 100%; overflow: auto; }
+
+#tabs .jspTrack { background: url('../images/event-details/scroll/osx_track.gif') repeat-y; padding-bottom: 2px;}
+#tabs .jspDrag { padding-bottom: 2px; background-image: url('../images/event-details/scroll/osx_drag_middle.gif'); background-repeat: repeat-y; } 
+#tabs a.jspArrowUp { height: 24px; background: url('../images/event-details/scroll/scroll-arrows-sprite.png') no-repeat 0 0; }
+/*#tabs a.jspArrowUp:hover {background-position: 0 0; }*/
+#tabs a.jspArrowDown { position: relative; bottom: 2px; height: 16px; background-image: url('../images/event-details/scroll/arrow-scroll-down.jpg'); background-repeat: no-repeat; }
+/*#tabs a.jspArrowDown:hover { background-position: 0 0; }*/
+
+#tabs .jspDragTop { background: url('../images/event-details/scroll/osx_drag_top.gif') no-repeat; height: 6px; }
+#tabs .jspDragBottom { background: url('../images/event-details/scroll/osx_drag_bottom.gif') no-repeat; height: 7px; position: absolute; bottom: -7px; width: 15px; }
+#tabs .jspVerticalBar { width: 15px; }
+
+#tabs .jspArrow { background: 0; }
+
+/*#tabs .scroll-pane { width: 100%; height: 320px; overflow: auto; }*/
+/*
+#tabs .jspDragTop { background-image: url('../images/event-details/scroll/scroll-top.jpg'); background-repeat: no-repeat; height: 11px; }
+#tabs .jspDrag { background-image: url('../images/event-details/scroll/scroll-body.jpg'); background-repeat: repeat-y; } 
+#tabs .jspDragBottom { background-image: url('../images/event-details/scroll/scroll-bottom.jpg'); background-repeat: no-repeat; height: 11px; }
+*/
+/*#tabs .jspVerticalBar { width: 13px; }*/
+
+/*
+.scroll-pane { width: 100%; height: 200px; overflow: auto; }
+.ui-tabs-hide { position: absolute; left: -10000px; display: block; }
+#tabs { width: 100%; }
+*/
+
+/* old version
+#tabs .jScrollPaneTrack { background: url('../images/event-details/scroll/osx_track.gif') repeat-y; }
+#tabs .jScrollPaneDrag { background: url('../images/event-details/scroll/osx_drag_middle.gif') repeat-y; }
+#tabs .jScrollPaneDragTop { background: url('../images/event-details/scroll/osx_drag_top.gif') no-repeat; height: 6px; }
+#tabs .jScrollPaneDragBottom { background: url('../images/event-details/scroll/osx_drag_bottom.gif') no-repeat; height: 7px; }
+#tabs a.jScrollArrowUp { height: 24px; background: url('../images/event-details/scroll/osx_arrow_up.png') no-repeat 0 -30px; }
+#tabs a.jScrollArrowUp:hover {background-position: 0 0; }
+#tabs a.jScrollArrowDown { height: 24px; background: url('../images/event-details/scroll/osx_arrow_down.png') no-repeat 0 -30px; }
+#tabs a.jScrollArrowDown:hover { background-position: 0 0; }
+*/
+
+/***********************************************************************/
+
+
+
+/************************* event carousel *************************/
+#events-slider { margin-top: 5px; }
+#events-slider .scrollable { float:left; position:relative; overflow:hidden; width: 311px; height:78px; }
+#events-slider .scrollable .items { width:20000em; position:absolute; clear:both; }
+#events-slider .scrollable img { float:left; background-color:#fff; width:75px; height:75px; }
+#events-slider .scrollable .itemsContainer div:hover { cursor: pointer; }
+#events-slider .scrollable .active { border:2px solid #000; position:relative; cursor:default; }    
+#events-slider .items div.itemsContainer { float:left; width:680px; position: ; }
+#events-slider .items div.itemsContainer div { float: left; position: relative; width: 75px; height: 75px;  margin-right: 3px; }
+#events-slider .items div.itemsContainer div div.thumbSelected { position: absolute; width: 75px; border-bottom: 2px solid #5AA7F7; bottom: -3px; height: 2px; left: 0; }
+
+#events-slider  a.browse { 
+	background:url('../images/scrollable/arrow/nav_sprite.png') no-repeat; display:block; width:9px;
+    height:76px; float:left; margin:1px 0 1px 3px; cursor:pointer; font-size:1px; }
+
+#events-slider  a.right { background-position: -17px -2px; clear:right; margin-right: 0px;}
+#events-slider  a.right:hover {  }
+#events-slider a.right:active {  }
+
+#events-slider a.left { margin: 1px 4px 1px 0; background-position: -2px -2px;  }
+#events-slider a.left:hover  {  }
+#events-slider a.left:active {  }
+
+#events-slider a.up:hover { background-position:-30px 0; }
+#events-slider a.up:active { background-position:-60px 0; }
+
+#events-slider a.down { background-position: 0 -30px; }
+#events-slider a.down:hover { background-position:-30px -30px; }
+#events-slider a.down:active { background-position:-60px -30px; }
+
+#events-slider a.disabled { visibility:hidden !important; }
+	
+	/*** big image ***/
+	#bigImageDiv { margin-top: -5px; }
+	#bigImageDiv img { width:334px; height:223px; }
+
+	/*** default display for sliders ***/
+	#events-slider .container1 { display: block; }
+	#events-slider .container2, #events-slider .container3 { display: none; }
+/***********************************************************************/
+
+
+
+
+
+
+
+
+/************************* event items carousel *************************/
+#event-items { border: 1px solid #E5E5E5; padding: 12px 10px; }
+#event-items .scrollable { float:left; position:relative; height:142px; }
+#event-items .scrollable .items { clear:both; }
+#event-items .scrollable img { float:left; background-color:#fff; width:141px; height:142px; }
+#event-items .scrollable .itemsContainer div:hover { cursor: pointer; }
+#event-items .scrollable .active { border:2px solid #000; position:relative; cursor:default; }    
+#event-items .items div.itemsContainer { float:left; margin: 0 30px 0 35px; }
+#event-items .items div.itemsContainer div { float: left; position: relative; width: 141px; height: 142px; margin: 0 2px; }
+#event-items .items div.itemsContainer div div.thumbSelected { position: absolute; width: 141px; border-bottom: 2px solid #5AA7F7; bottom: -3px; height: 2px; left: 0; }
+
+#event-items  a.browse { 
+	background:url('../images/scrollable/arrow/nav_sprite.png') no-repeat; display:block; width:14px;
+    height:121px; float:left; margin:10px 0 1px 3px; cursor:pointer; font-size:1px; }
+
+#event-items  a.right { background-position: -18px -86px; clear:right; margin-right: 0px;}
+#event-items  a.right:hover {  }
+#event-items a.right:active {  }
+
+#event-items a.left { background-position: 0 -86px; }
+#event-items a.left:hover  {  }
+#event-items a.left:active {  }
+
+#event-items a.up:hover { background-position:-30px 0; }
+#event-items a.up:active { background-position:-60px 0; }
+
+#event-items a.down { background-position: 0 -30px; }
+#event-items a.down:hover { background-position:-30px -30px; }
+#event-items a.down:active { background-position:-60px -30px; }
+
+#event-items a.disabled { visibility:hidden !important; }
+	
+	/*** default display for sliders ***/
+	#event-items .container1 { display: block; }
+	#event-items .container2, #event-items .container3 { display: none; }
+/************************************************************************/
+
+
+
+
+
+
+
+/************************* might add this in common.css *************************/
+.clear { clear:both; }
+.italic { font-style: italic; }
+.radiusTopRightLeft { 
+	-webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; 
+	-moz-border-radius-topleft: 	5px; -moz-border-radius-topright: 5px;
+	border-top-left-radius: 		5px; border-top-right-radius: 5px; }
+
+.shadowInset {
+	-webkit-box-shadow: inset 0 1px 0 0 rgba(255,255,255,.6);
+	-moz-box-shadow: 	inset 0 1px 0 0 rgba(255,255,255,.6);
+	box-shadow: 		inset 0 1px 0 0 rgba(255,255,255,.6); }	
+
+.shadowOut {
+	-webkit-box-shadow: 0px 5px 10px rgba(180, 180, 180, 1);
+	-moz-box-shadow:    0px 5px 10px rgba(180, 180, 180, 1);
+	box-shadow:         0px 5px 10px rgba(180, 180, 180, 1);
+}	
+
+.aToggle { color: #4A9CE4; font-size: 11px; display: block; }
+.aToggle:hover { cursor: pointer; color: #2E99F8; }
+.aToggle b { background:url('../images/event-details/buttons/arrow-sprite.png') no-repeat; }
+
+.aMore b { background-position: 0 6px; padding: 4px; }
+.aLess b { background-position: -9px 6px; padding: 4px; }
+
+.divider { border-top: 1px solid #C8C9Ca; border-bottom: 1px solid #FFF; }
+.dividerWithSpace { border-top: 1px solid #C8C9Ca; border-bottom: 1px solid #FFF; margin: 10px 0 5px 0; }
+
+/***********************************************************************/
+
+
+#tt-image:hover { cursor: pointer; }
+
+.tipsy { font-size: 12px; position: absolute; padding: 5px; z-index: 100000; width: 195px; font-family: Myriad Pro, Arial;}
+.tipsy-inner { background-color: #C7DDF8; color: #525153; max-width: 200px; padding: 5px 8px 4px 8px; text-align: left; }
+
+/* Rounded corners */
+.tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+
+/* Uncomment for shadow */
+.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }
+
+.tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #C7DDF8; }
+
+/* Rules to colour arrows */
+.tipsy-arrow-n { border-bottom-color: #C7DDF8; }
+.tipsy-arrow-s { border-top-color: #C7DDF8; }
+.tipsy-arrow-e { border-left-color: #C7DDF8; }
+.tipsy-arrow-w { border-right-color: #C7DDF8; }
+
+.tipsy-n .tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+.tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+.tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+.tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+.tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+.tipsy-se .tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+.tipsy-e .tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+.tipsy-w .tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
+
+
+
