@@ -67,10 +67,10 @@ body { background:url(../images/sitetopbg.png) repeat-x; }
 
 .events-social { position: fixed; top: 130px; margin-left: 235px; }
 .events-social a:hover { cursor: pointer; }
-.events-timer { display: none; background: url('../images/event-details/social/timer-black.png') no-repeat -1px 0; width: 190px; height: 97px; position: absolute; left: -190px; top: 1px; z-index: 3; }
-#events-fb { display: block; background: url('../images/event-details/social/socials-sprite-black.png') no-repeat -1px 0; width: 37px; height: 35px; }
-#events-tw { display: block; background: url('../images/event-details/social/socials-sprite-black.png') no-repeat -48px 0; width: 37px; height: 32px; }
-#events-ml { display: block; background: url('../images/event-details/social/socials-sprite-black.png') no-repeat -96px 0; width: 37px; height: 45px; }
+.events-timer { display: none; background: url('../images/event-details/social/events-social-sprite.png') no-repeat 1px -48px; width: 190px; height: 97px; position: absolute; left: -190px; z-index: 3; }
+#events-fb { display: block; background: url('../images/event-details/social/events-social-sprite.png') no-repeat 0 1px; width: 37px; height: 35px; }
+#events-tw { display: block; background: url('../images/event-details/social/events-social-sprite.png') no-repeat -40px 0; width: 37px; height: 31px; }
+#events-ml { display: block; background: url('../images/event-details/social/events-social-sprite.png') no-repeat -80px 0; width: 37px; height: 45px; }
 
 
 
